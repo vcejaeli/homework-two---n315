@@ -64,11 +64,12 @@
     .nav {
 
         &__logo {
-            height: 35px;
+            height: 25px;
         }
         &__links li {
             display: inline-block;
-            padding: 0px 5px;
+            padding: 0px 4px;
+            padding: 0px 4px;
         }
         &__links li a {
             font-weight: 600;

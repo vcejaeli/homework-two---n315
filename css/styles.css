@@ -75,11 +75,12 @@ h1, h2, h3, h4, h5, h6, p {
 
 @media (max-width: 800px) {
   .nav__logo {
-    height: 35px;
+    height: 25px;
   }
   .nav__links li {
     display: inline-block;
-    padding: 0px 5px;
+    padding: 0px 4px;
+    padding: 0px 4px;
   }
   .nav__links li a {
     font-weight: 600;
