@@ -1,0 +1,90 @@
+.contactContent {
+  background-image: url(../asset/img/bayernStadium.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: calc(100vh - 50px);
+  width: 100%;
+  padding: 30px 30px 14px 30px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contactContent__body {
+  min-height: 650px;
+  width: 100%;
+  margin: 0 auto;
+}
+.contactContent__title {
+  margin: 0 auto;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: limegreen;
+  font-weight: 600;
+  font-size: 60px;
+  text-align: center;
+  justify-content: center;
+  line-height: 95px;
+}
+.contactContent__form {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+.contactContent__form .inputBoxes {
+  outline: none;
+  max-width: 600px;
+  background-color: #000;
+  color: #fff;
+  border: 3px solid aqua;
+  border-radius: 15px;
+  font-weight: 300;
+  font-size: 16px;
+  padding: 5px;
+  margin: 25px;
+}
+.contactContent__form .formCta {
+  background-color: aqua;
+  color: #000;
+  border-radius: 15px;
+  border: none;
+  padding: 10px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.contactContent__form .formCta:hover {
+  padding: 15px;
+}
+.contactContent__form .formCta:active {
+  outline: none;
+  background: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media (max-width: 900px) {
+  .contact__content {
+    display: inline-block;
+  }
+  .contact__form .inputBoxes {
+    width: 80%;
+  }
+}

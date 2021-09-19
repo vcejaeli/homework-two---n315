@@ -1,0 +1,55 @@
+.footer {
+  background: #070707;
+  color: #fff;
+  padding: 3em;
+  height: auto;
+  max-width: 100%;
+  margin-top: auto;
+}
+.footer__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+.footer__text {
+  font-size: 14px;
+}
+.footer__header h1 {
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.footer__social {
+  margin-bottom: 20px;
+}
+.footer li {
+  list-style: none;
+  vertical-align: top;
+  display: inline-block;
+  padding: 0 10px 0 10px;
+}
+.footer__youtube {
+  color: #fff;
+}
+.footer__twitch {
+  color: #fff;
+}
+.footer__logo {
+  height: auto;
+  width: 200px;
+  margin-bottom: 20px;
+}
+.footer__logo img {
+  height: auto;
+  max-width: 80px;
+}

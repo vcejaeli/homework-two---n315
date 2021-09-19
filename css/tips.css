@@ -1,0 +1,90 @@
+.tipsContent {
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.8))), url(../asset/img/livcity.jpg);
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../asset/img/livcity.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: calc(100vh);
+  max-width: 100%;
+  margin: 0 auto;
+}
+.tipsContent__main {
+  margin: 0 auto;
+  max-width: 1400px;
+  min-height: 500px;
+  padding: 20px;
+}
+.tipsContent__card {
+  background: rgba(255, 255, 255, 0.7);
+  height: 150px;
+  max-width: 1300px;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.tipsContent__wrap {
+  height: 100%;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  border-radius: 20px;
+}
+.tipsContent__img {
+  background: rgba(77, 102, 150, 0.568);
+  height: 96%;
+  width: 300px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+.tipsContent__text {
+  height: 95%;
+  width: 900px;
+  overflow: auto;
+  color: #000;
+}
+.tipsContent__text h1 {
+  font-size: 18px;
+  padding: 0 20px 5px 20px;
+}
+.tipsContent__text p {
+  font-size: 14px;
+  padding: 0 20px 5px 20px;
+}
+.tipsContent--cardAimg {
+  background-image: url(../asset/img/mbappeShot.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tipsContent--cardBimg {
+  background-image: url(../asset/img/sanchoDribble.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tipsContent--cardCimg {
+  background-image: url(../asset/img/arnoldDefence.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tipsContent--cardDimg {
+  background-image: url(../asset/img/edersonKeeper.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

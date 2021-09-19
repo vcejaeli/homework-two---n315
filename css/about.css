@@ -1,0 +1,64 @@
+.aboutContent {
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.8))), url(../asset/img/aboutPage.jpg);
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(../asset/img/aboutPage.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: calc(100vh);
+  max-width: 100%;
+}
+.aboutContent__main {
+  max-width: 800px;
+  min-height: 500px;
+  margin-left: 5%;
+  margin-right: 10%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.aboutContent__headerAndDesc {
+  margin-bottom: 10px;
+  color: white;
+  margin-top: 5%;
+}
+.aboutContent__header {
+  color: #ff00ea;
+  width: 500px;
+  text-align: center;
+  line-height: 40px;
+  margin-bottom: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: inline-block;
+  font-size: 40px;
+}
+.aboutContent--bold {
+  color: aqua;
+  font-size: 50px;
+}
+.aboutContent__desc {
+  margin-left: 5%;
+  text-align: left;
+}
+
+@media (max-width: 1200px) {
+  .aboutContent {
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.9))), url(../asset/img/aboutPage.jpg);
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../asset/img/aboutPage.jpg);
+  }
+  .aboutContent__header {
+    font-size: 20px;
+  }
+  .aboutContent__desc {
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 400px;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}

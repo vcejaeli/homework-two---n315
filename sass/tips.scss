@@ -1,0 +1,132 @@
+.tipsContent {
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0.7), rgba(0, 162, 255, 0.8)),url(../asset/img/livcity.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: calc(100vh);
+    max-width: 100%;
+    margin: 0 auto;
+
+    &__main {
+        // background: rgba(184, 132, 132, 0.397);
+        margin: 0 auto;
+        max-width: 1400px;
+        min-height: 500px;
+        padding: 20px;
+    }
+
+    // this is the card template 
+    &__card {
+        // background: rgba(255, 255, 255, 0.7);
+        height: 150px;
+        max-width: 1300px;
+        margin: 0 auto;
+        align-items: center;
+        border: 2px solid #fff;
+        border-radius: 20px;
+        // change height between card elems here
+        margin-bottom: 50px;
+    }
+
+    &__wrap {
+        height: 100%;
+        max-width: 100%;
+        // background: rgba(240, 230, 140, 0.685);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 20px;
+    }
+
+    &__img {
+        background: rgba(77, 102, 150, 0.568);
+        height: 96%;
+        width: 300px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-right: 30px;
+    }
+
+    &__text {
+        // background: rgba(0, 0, 0, 0.445);
+        height: 95%;
+        width: 900px;
+        // pretty cool effect for when you need more text
+        overflow: auto;
+        color: #fff;
+
+        h1 {
+            font-size: 18px;
+            padding: 0 20px 5px 20px;            
+        }
+        p {
+            font-size: 14px;
+            padding: 0 20px 5px 20px;            
+        }
+    }
+    // end of card template
+
+    // card A
+    &--cardA {
+    
+    }
+    &--cardAimg {
+        background-image: url(../asset/img/mbappeShot.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &--cardAtext {
+
+    }
+
+    // card B
+    &--cardB {
+    
+    }
+    &--cardBimg {
+        background-image: url(../asset/img/sanchoDribble.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &--cardBtext {
+
+    }
+
+    // card C
+    &--cardC {
+    
+    }
+    &--cardCimg {
+        background-image: url(../asset/img/arnoldDefence.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &--cardCtext {
+
+    }
+
+    // card D
+    &--cardD {
+    
+    }
+    &--cardDimg {
+        background-image: url(../asset/img/edersonKeeper.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &--cardDtext {
+
+    }
+
+}
+
+
+
+// ein 
+// 

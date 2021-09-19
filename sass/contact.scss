@@ -1,0 +1,90 @@
+.contactContent {
+    background-image: url(../asset/img/bayernStadium.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background: plum;
+    min-height: calc(100vh - 50px);
+    width: 100%;
+    padding: 30px 30px 14px 30px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+
+    &__body {
+        min-height: 650px;
+        width: 100%;
+        // background: rgba(144, 238, 144, 0.473);
+        // turn this on if you want title left form right
+        // display: flex;
+        // align-items: center;
+        // justify-content: space-evenly;
+        margin: 0 auto;
+    }
+    &__title {
+        margin: 0 auto;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        color: orange;
+        font-weight: 600;
+        font-size: 40px;
+        text-align: center;
+        justify-content: center;
+        line-height: 25px;
+    }
+    &__form {
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 30px;
+        // line height?
+        // padding-top: 40px;
+
+        .inputBoxes {
+            outline: none;
+            max-width: 600px;
+            background-color: #000;
+            color: #fff;
+            border: 3px solid aqua;
+            border-radius: 15px;
+            font-weight: 300;
+            font-size: 16px;
+            padding: 5px;
+            margin: 25px;
+        }
+        .formCta {
+            background-color: orange;
+            color: #000;
+            border-radius: 15px;
+            border: none;
+            padding: 10px;
+            transition: 1s;
+        }
+        .formCta:hover {
+            padding: 15px;
+        }
+        .formCta:active {
+            outline: none;
+            background: #fff;
+            transition: .5s;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .contact {
+
+        &__content {
+            display: inline-block;
+        }
+        &__form {
+            .inputBoxes {
+                width: 80%;
+            }
+        }
+    }
+}
